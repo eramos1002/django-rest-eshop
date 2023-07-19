@@ -1,0 +1,12 @@
+.idea
+app_eshop/.idea/
+/.idea/
+.idea/worspace.xml
+/.idea/*
+
+venv*/
+.env
+db.sqlite3
+documents/*
+**/__pycache__/
+/__pycache__/
