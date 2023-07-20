@@ -1,0 +1,12 @@
+services:
+  eshop-postgres:
+    container_name: eshop-postgres
+    image: postgres:14.4
+    restart: always
+    environment:
+      POSTGRES_USER: eshop
+      POSTGRES_PASSWORD: eshop
+      POSTGRES_DB: eshop
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - 5433:5432
